@@ -1,0 +1,165 @@
+ body {
+    background-image: url("./../images/blur lags.png");
+	height: 100%;
+	width: 100%;
+}
+	 
+.logo {
+    display: block;
+    margin-left: 24%;
+    margin-right: auto;
+	margin-top: 0%;
+    width: 50%;
+}
+
+.logo2 {
+    display: block;
+    margin-left: 33%;
+    margin-right: auto;
+	margin-top: 0%;
+    width: 30%;
+}
+
+.logo3 {
+    display: block;
+    margin-right: auto;
+	margin-top: 0%;
+    width: 50%;
+	float: right;
+}
+
+.informationcontainer {
+	background: white;
+	font: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: 50%;
+	margin-top: 10%;
+    width: 45%;
+	border: 5px ridge #064994;
+}
+
+.button {
+    background-color: #064994; 
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+}	
+
+.dropbtn {
+    background-color: #064994;
+    color: white;
+    padding: 16px;
+    font-size: 80%;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 22% 35%px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	display: grid;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #064994;
+}
+
+footer { 
+display: block;
+clear: both;
+height: 50%;
+background: transparent;
+margin: 0% 0 0 0;
+}
+
+#contact {
+display: left;
+width: 33%;
+color: white;
+float: bottom;
+}
+
+#shrimpFooter {
+padding-top: 0px;
+}
+
+#contactList {
+display: block;
+width: 100%;
+}
+
+.footerList {
+display: block;
+clear: both;
+width: 100%;
+text-align: left;
+list-style: none;
+height: 20%px;
+color: white;
+font-size: 1.2em;
+line-height: 1.5em;
+color: white;
+letter-spacing: .02em;
+font-style: normal;
+font-weight: 300;
+font-family: source-sans-pro, sans-serif;
+margin: 0 0 0 0%;
+}
+
+div.gallery {
+    margin: 1%;
+    border: 3px solid #ccc;
+    float: right;
+    width: 15%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+	background: #064994;
+    text-align: center;
+	color: white;
+}
+
+.cart {
+	background: white;
+	font: italic;
+	font-size: 3em;
+    display: block;
+    margin-left: 24%;
+    margin-right: auto;
+	margin-top: 0%;
+    width: 50%;
+	border: 5px ridge #064994;
+}
